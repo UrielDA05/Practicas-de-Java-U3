@@ -5,11 +5,6 @@
  */
 import javax.swing.JOptionPane;
 
-        
-/**
- *
- * @author tene
- */
 public class Descuento_tombola {
     public static void main(String[] args) {
         double precioI , precioF ,descuento;
