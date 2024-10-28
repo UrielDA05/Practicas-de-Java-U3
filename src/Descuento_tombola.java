@@ -29,7 +29,7 @@ public class Descuento_tombola {
         }
         precioF=precioI - (precioI *descuento);
         JOptionPane.showMessageDialog(null, "El precio final a pagar es: $" + precioF);
-        
+        //mensaje final
                     }
         }
     
