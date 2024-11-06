@@ -3,7 +3,9 @@ import javax.swing.JOptionPane;
 
 public class Monto_Talleres {
     public static void main(String[] args) {
-        float basket , voli ,artes ,fut ,taek ,aje ,mus ,atle ,mBask=9000 , mVoli=15000, mFut=15000, mAje=25000 , mMus=12000 , mAtl=13000, montoT=189000, mTaek=50000, mArt=50000;
+        float basket , voli ,artes ,fut ,taek ,aje ,mus ,atle;
+        short mBask=9000 , mVoli=15000, mFut=15000, mAje=25000 , mMus=12000 , mAtl=13000;
+        int montoT=189000, mTaek=50000, mArt=50000;
         basket = (mBask/(montoT/100));
         voli = (mVoli/(montoT/100));
         artes= (mArt/(montoT/100));
