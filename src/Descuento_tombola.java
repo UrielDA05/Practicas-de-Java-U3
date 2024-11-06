@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 import javax.swing.JOptionPane;
-
 public class Descuento_tombola {
     public static void main(String[] args) {
         double precioI , precioF ,descuento;
@@ -29,7 +28,6 @@ public class Descuento_tombola {
         }
         precioF=precioI - (precioI *descuento);
         JOptionPane.showMessageDialog(null, "El precio final a pagar es: $" + precioF);
-        //mensaje final
                     }
         }
     
