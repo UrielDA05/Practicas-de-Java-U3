@@ -2,8 +2,7 @@
 import javax.swing.JOptionPane;
 public class CicloDo {
     public static void main(String[] args) {
-        int 
-resp;
+        int resp;
         float estatura, imc;
         short peso;
         do {
