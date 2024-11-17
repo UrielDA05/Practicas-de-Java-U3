@@ -1,10 +1,10 @@
 import javax.swing.JOptionPane;
 public class CicloWhile {
     public static void main(String[] args) {
-        Float estatura, imc;
-        Short peso;
+        float estatura, imc;
+        short peso;
         String resp;
-        resp = JOptionPane.showInputDialog("¿Quieres saber que peso tienes?\n Si es asi escribe: si\n Si no escribe: no");
+        resp = JOptionPane.showInputDialog("¿Quieres saber tu imc que tienes?\n Si es asi escribe: si\n Si no escribe: no");
         while(resp.equals("si")){
             estatura = Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu estatura en metros"));
             peso = Short.parseShort(JOptionPane.showInputDialog("Ingresa tu peso en kilogramos"));
