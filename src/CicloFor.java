@@ -2,11 +2,10 @@ import javax.swing.JOptionPane;
 public class CicloFor {
     public static void main(String[] args) {
         float estatura, peso, imc;
-        var resp = 0 ;
         short nPersonas=Short.parseShort(JOptionPane.showInputDialog("Ingresa el numero de personas para"
                 + "calcular el imc"));
         // Pide el peso y altura de cada persona
-        for (int i = 0; i <= nPersonas; i++) {
+        for (int i = 1; i <= nPersonas; i++) {
             peso = Float.parseFloat(JOptionPane.showInputDialog("Captura tu peso en kilogramos"));
             estatura = Float.parseFloat(JOptionPane.showInputDialog("Captura tu estatura en metros"));
             imc=(peso/(estatura*estatura));
@@ -23,10 +22,6 @@ public class CicloFor {
             } else if (imc >= 40) {
                 JOptionPane.showMessageDialog(null, "Obesidad mórbida");
             }
-
-            resp = Byte.parseByte(JOptionPane.showInputDialog("Capture 1 si desea realizar otro cálculo,"
-                    + " o cualquier otro número para salir"));
-
 
         }
 
