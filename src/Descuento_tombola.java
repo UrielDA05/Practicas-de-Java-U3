@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import javax.swing.JOptionPane;
+import javax.swing.JOptionP
 public class Descuento_tombola {
     public static void main(String[] args) {
         double precioI , precioF ,descuento;
