@@ -11,7 +11,7 @@ public class Descuento_tombola {
         String C;
         C=JOptionPane.showInputDialog(null,"Ingres el color de la bola que le toco (rojo,verde,amarillo,azul)");
         if (C.equals("rojo")){
-           JOptionPane.showInternalMessageDialog(,"Color de bola rojo y tu descuento es de un 40%" ); 
+           JOptionPane.showInternalMessageDialog(null,"Color de bola rojo y tu descuento es de un 40%" ); 
            descuento=0.4;
         }else if (C.equals("verde")){
             JOptionPane.showInternalMessageDialog(null,"Color de bola verde y tu descuento es de un 28%" );
