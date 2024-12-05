@@ -9,7 +9,7 @@ public class Descuento_tombola {
         double precioI , precioF ,descuento;
         precioI=Double.parseDouble(JOptionPane.showInputDialog(null,"Ingrese el valor de su compra"));
         String C;
-        C=JOptionPane.showInputDialog(null,"Ingres el color de la bola que le toco (rojo,verde,amarillo,azul)");
+        C=JOptionPane.showInputDialog(null,"Ingrese el color de la bola que le toco (rojo,verde,amarillo,azul)");
         if (C.equals("rojo")){
            JOptionPane.showInternalMessageDialog(null,"Color de bola rojo y tu descuento es de un 40%" ); 
            descuento=0.4;
